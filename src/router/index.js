@@ -1,24 +1,24 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-import CreateArticle from '../views/CreateArticle.vue'
-import ListArticle from '../views/ListArticle.vue'
+import Vue from "vue"
+import VueRouter from "vue-router"
+import CreateArticle from "../views/CreateArticle.vue"
+import ListArticle from "../views/ListArticle.vue"
 
 Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
-    name: 'Home',
-    redirect: '/articles/index'
+    path: "/",
+    name: "Home",
+    redirect: "/articles/index"
   },
   {
-    path: '/articles/create',
-    name: 'create-article',
+    path: "/articles/create",
+    name: "create-article",
     component: CreateArticle
   },
   {
-    path: '/articles/index',
-    name: 'list-article',
+    path: "/articles/index",
+    name: "list-article",
     component: ListArticle
   }
 ]
