@@ -1,6 +1,6 @@
 # element-admin
 
-##全栈开发后台管理界面
+## 全栈开发后台管理界面
 
 - **前端(Element-ui+Vue-cli)**
 - **后台(NodeJs+Mongoose)**
